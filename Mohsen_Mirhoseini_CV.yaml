@@ -1,0 +1,153 @@
+cv:
+  name: Mohsen Mirhoseini
+  location: Berlin, Germany
+  email: msn.mirhoseini@gmail.com
+  phone: tel:+49-1573-2197-325
+  website: https://mohsenoid.com/
+  social_networks:
+    - network: LinkedIn
+      username: mohsenoid
+    - network: GitHub
+      username: mohsenoid
+    - network: Twitter
+      username: mohsenoid
+  sections:
+    CAREER_SUMMARY:
+      - I am a senior software engineer with a passion for Android development.
+        I have worked as a software developer since 2006 and later focused extensively on the mobile applications since 2012.
+        I also had a chance to lead and train other developers along the way.
+        I am a computer geek and a YouTuber who cannot resist Mobile apps, IoT, Tech talks, and video gaming.
+    EDUCATION:
+      - institution: Shomal University at Amol
+        area: Computer Software Engineering
+        degree: BSc
+        start_date: 2005
+        end_date: 2008
+      - institution: University of Science and Art
+        area: Computer Software
+        degree: ASc
+        start_date: 2003
+        end_date: 2005
+    WORK_EXPERIENCE:
+      - company: Firework (Full-Time | Remote)
+        position: Android Team/Tech Lead
+        location: CA, USA
+        start_date: 2022-04
+        end_date: 2024-06
+        highlights:
+          - Developing and owning the Firework Android SDK that is used by millions of users, allowing every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.
+          - Challenging with SDK development limitations like not being allowed to depend on open source libraries and designing everything from scratch.
+          - Designing and developing the SDK architecture and defining custom widgets
+          - Mentored team members, resulting in improved code quality, faster time to production
+          - Collaborated with both product managers and customers
+      - company: GLS eCom Lab (Full-Time)
+        position: Senior Android Developer
+        location: Berlin, Germany
+        start_date: 2020-03
+        end_date: 2022-03
+        highlights: 
+          - Helping GLS last mile drivers in Europe on listing parcels to deliver and navigating through waypoints to meet for a day tour.
+          - Taking over an out-sourced Android project and make it in-house by refactoring most of legacy codes and defining and automating work flows.
+          - Giving love to a code base done by multiple freelancers
+          - Implementing Turn-by-Turn navigation using Here SDK
+          - Developing an Android library to communicate with 3rd party apps
+          - Defining technical and nontechnical flows including release automation and CI/CD
+          - Adapting to work with full authonomy in a flat company
+      - company: German Autolabs GmbH (Full-Time)
+        position: Senior Android Developer & Teamlead
+        location: Berlin, Germany
+        start_date: 2017-02
+        end_date: 2020-02
+        highlights: 
+          - Working on a complex AI-based Automotive Voice Assistant (AVA) platform and Chris the digital assistant for drivers based on the AVA platform project.
+          - Starting the Chris companion android app development from scratch and successfully releasing it into production after more than 1-year designing and prototyping.
+          - Defining a proper codebase and project structure including architecture and modules
+          - Managing a secure solution for communication over BLE using Protobuf
+          - Setting an appropriate CI/CD pipeline including version control and release systems
+          - Being an active member of product tech leads and core management team
+      - company: Karina Mobile Solutions (Full-Time)
+        position: Senior Android Developer & Teamlead
+        location: Tehran, Iran
+        start_date: 2013-02
+        end_date: 2017-01
+        highlights: 
+          - Participating in multiple projects including a social network platform and a music streaming service. Promoting to Senior Android developer and team lead in a short time.
+          - Developing a game social network application using RESTful APIs
+          - Developing a newsreader application and a music streaming service application
+          - Managing multiple Applications based on VAS back-end systems (by SMS/USSD)
+          - Consulting mobile application solutions for B2B customers and content providers
+      - company: Hafez Health Group & ATD (Part-Time | Freelance)
+        position: Android Developer
+        location: Tehran, Iran
+        start_date: 2012-09
+        end_date: 2013-02
+        highlights: 
+          - Developing multiple big and small applications as a part-time job namely Tehran traffic map application, food ordering application, roadside assistance application using GPS and maps APIs, food calorie meter, and insulin reminder for diabetics patients.
+      - company: Fanava Nevisan (Self-employed)
+        position: Software Developer & Database Manager
+        location: Tehran, Iran
+        start_date: 2006-08
+        end_date: 2013-02
+        highlights: 
+          - Founded my own company and worked on Software projects using C++, C#, SQL, ASP, and .net technology.
+
+    SKILLS_\&_TOOLS:
+      - label: Languages
+        details: Kotlin, Java
+      - label: Technical
+        details: RESTful WebServices, Dependency Injection, Testing, Coroutines, RxJava / RxAndroid, CleanArchitecture, Android Development, Software Architectural Design, SOLID
+      - label: Professional
+        details: Public Speaking, Team Leadership, Effective communication
+      - label: Others
+        details: Mockito, Espresso, ORMs, IoT, NDK, Git/GitFlow, CI/CD, MVP/MVVM, Protobuf
+    
+    LANGUAGE:
+      - label: Persian
+        details: (Native)
+      - label: English
+        details:  (Professional)
+      - label: German
+        details:  (A2)
+
+    INTERESTS:
+      - YouTube
+      - Photography
+      - Video Games
+      - Billiard
+      - Tech News
+      - Android community
+
+design:
+  theme: sb2nov
+  font: Source Sans 3
+  font_size: 12pt
+  page_size: a4paper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 26 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
