@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jsonresume-theme-eloquent-mod": "^4.24.0",
     "jsonresume-theme-eshaham": "^1.0.9"
   }
 }
