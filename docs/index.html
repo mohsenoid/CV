@@ -1,1298 +1,1104 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Mohsen Mirhoseini</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-
-  
-  <style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
-body {
-  background: #fff;
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  color: #333;
-  margin: 0 0 80px;
-  font-size: 15px;
-}
-
-a {
-  color: #e32b46;
-}
-
-a:focus,
-a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-strong {
-  font-size: smaller;
-  font-weight: 400;
-  color: #333;
-}
-
-p {
-  line-height: 1.5;
-  margin: 0 0 0.5em 0;
-}
-
-p + p {
-  margin-top: 10px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin-top: 0;
-  font-weight: 300;
-  color: #555;
-}
-
-section {
-  margin-top: 24px;
-}
-
-ul,
-ol {
-  padding-left: 21px;
-}
-
-li {
-  line-height: 1.8;
-  list-style: none;
-}
-
-li:before {
-  content: '\f052';
-  float: left;
-  font: 16px Octicons;
-  margin-top: 6px;
-  margin-left: -20px;
-  opacity: 0.1;
-  position: absolute;
-}
-
-blockquote {
-  border-left: 3px solid #e7e9ec;
-  font-size: 14px;
-  margin-bottom: 4px;
-}
-
-em {
-  color: #666;
-  font-weight: 300;
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Mohsen Mirhoseini</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+  font-weight: normal;
   font-style: normal;
 }
 
-h4 span:first-child {
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+.relative {
+  position: relative;
+}
+.clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.labels {
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
+}
+.label-keyword p {
+  margin: 0;
+}
+.label-keyword a {
+  color: white;
+}
+.label-keyword a:hover {
+  text-decoration: none;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+.clear-margin {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+/* the version when the icon file is last updated */
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
+body {
+  font-family: 'Lato';
+  background: #f0f0f0;
   color: #333;
-  font-weight: 400;
 }
-
-.section {
-  display: flex;
-  margin-right: -15px;
-  margin-left: -15px;
+.main {
+  padding: 5px;
 }
-
-.section-title {
-  flex: 1;
-  text-align: right;
-  padding-right: 30px;
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px 0;
 }
-
-.section-content {
-  flex: 4;
+.card-nested {
+  min-height: 0;
+  border-width: 1px 0 0 0;
 }
-
-.container {
-  max-width: 768px;
-  padding: 0 30px;
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
 }
-
-.item-row {
-  padding-top: 5px;
-  margin-top: -5px;
+.card-nested:after {
+  clear: both;
 }
-
-.item-row-split {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.item-split {
-  flex: 0 0 50%;
-}
-
-#header {
-  padding: 50px 0 25px;
-}
-
-#header .section-title {
-  padding-right: 30px;
-}
-
-#header h2 {
-  color: #95a5a6;
-  font-size: 24px;
-}
-
-#content h3 {
-  color: #555;
-  font-size: 26px;
-  margin-top: -4px;
-}
-
-#profiles .network {
-  text-transform: capitalize;
-}
-
-#work .position,
-#volunteer .position {
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-
-#education .area {
-  font-weight: 400;
-}
-
-#education .area:before {
-  content: '\f0d7';
-  font: 16px Octicons;
-  margin-right: 6px;
-}
-
-#education .studyType {
-  margin-left: 25px;
-  padding-bottom: 5px;
-}
-
-#awards .summary,
-#publications .summary {
-  margin-top: 8px;
-}
-
-#publications .website a:before {
-  content: attr(href);
-}
-
-@media (min-width: 480px) {
-  .strike-through {
-    border-top: 1px solid #f4f6f6;
-    height: 20px;
-    margin-top: 12px;
-    margin-bottom: -2px;
-    position: relative;
-  }
-
-  .strike-through span,
-  .strike-through a {
-    background: #fff;
-    position: absolute;
-  }
-
-  .strike-through span:first-child {
-    padding-right: 20px;
-    margin-top: -12px;
-  }
-
-  .strike-through span + span {
-    font-size: 14px;
-    margin-top: -10px;
-    padding-left: 20px;
-    right: 0;
-  }
-}
-
 @media (max-width: 480px) {
-  h1 {
-    font-size: 28px;
+  .card-nested {
+    padding: 5px 0;
   }
-
-  #header h2 {
-    font-size: 24px;
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
   }
-
-  #content h3 {
-    font-size: 20px;
+}
+.background-details .detail {
+  display: table;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #707070;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
   }
-
-  h4 {
-    font-size: 16px;
-  }
-
-  .date {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-
-  .strike-through span:first-child {
-    margin-bottom: 7px;
-  }
-
-  .strike-through span {
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
     display: block;
   }
-
-  #header {
-    padding: 30px 0 0;
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
   }
-
-  #actions {
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
     display: none;
   }
 }
-
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+.current-event {
+  font-size: 8px;
+  color: #5ACE24;
+  position: absolute;
+  right: 100%;
+  top: 4px;
+  left: -10px;
+}
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+  color: #357ebd;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1f496e;
+  background-color: #e6e6e6;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .icon-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #357ebd;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1f496e;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
 @media (max-width: 768px) {
-  .section-content {
-    flex: 6;
-  }
-
-  #content h3 {
-    font-size: 20px;
-    margin-top: -1px;
+  .contact-details {
+    text-align: center;
   }
 }
-
-@page {
-  margin-top: 0.5in;
-  margin-bottom: 0.5in;
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
 }
-
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #707070;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12A5F4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-instagram {
+  color: #e4405f;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  text-decoration: none;
+  color: #d31e40;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-stackexchange {
+  color: #62b0df;
+}
+.link-stackexchange:hover,
+.link-stackexchange:focus {
+  text-decoration: none;
+  color: #389bd6;
+}
+.link-lastfm {
+  color: #d12127;
+}
+.link-lastfm:hover,
+.link-lastfm:focus {
+  text-decoration: none;
+  color: #a51a1f;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #630;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: black;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 15px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
+}
 @media print {
-  a {
-    color: #e32b46 !important;
-  }
-
   a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile-pic img {
+    border-radius: 0;
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
     display: none;
   }
-
-  *,
-  :after,
-  :before {
-    background: #fff !important;
-  }
-
-  .container::before,
-  .container::after {
-    content: inherit;
-  }
-
-  .item-row {
-    break-inside: avoid;
-  }
-
-  #content aside {
-    margin: 0 !important;
+  .pagebreak {
+    page-break-before: always;
   }
 }
-
-  </style>
-  
-</head>
-<body>
-  <!-- HEADER -->
-  <header id="header">
-    <div class="container">
-			<div class="section">
-        <div class="section-title">
-          <img src="assets/avatar.jpg" class="img-responsive img-circle pull-right" style="max-height: 88px">
-        </div>
-				<div class="section-content">
-          <h1>Mohsen Mirhoseini</h1>
-          <h2>Android Team/Tech Lead at Firework</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-
-  <!-- CONTENT: Re-arrange sections order if necessary -->
-  <div id="content" class="container">
-    <!-- Contact -->
-    
-
-
-  <section id="contact" class="section">
-    <aside class="section-title"><h3>Contact</h3></aside>
-    <div class="section-content">
-      <div class="item-row">
-        <div class="item-row-split">
-          
-            <div class="item-split">
-              <strong>Email</strong>
-              <div>
-                <a href="mailto:msn.mirhoseini@gmail.com">msn.mirhoseini@gmail.com</a>
-              </div>
-            </div>
-          
-          
-            <div class="item-split">
-              <strong>Phone</strong>
-              <div class="phone">+4915732197325</div>
-            </div>
-          
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- About -->
-    
-
-
-  <section id="about" class="section">
-    <aside class="section-title">
-      <h3>About</h3>
-    </aside>
-    <div class="section-content">
-      <p>I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2006 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.
-
-I am a computer geek who cannot resist Mobile apps, IoT, Tech talks, and video gaming.
-
-Besides publishing articles on Medium, I am also a YouTuber and share my experiences in developing Android apps on a YouTube channel called &#34;Android Developer Tips&#34; for the whole Android community.</p>
-    </div>
-  </section>
-
-
-    <!-- Profiles -->
-    
-
-
-  <section id="profiles" class="section">
-    <aside class="section-title">
-      <h3>Profiles</h3>
-    </aside>
-    <div class="section-content">
-      <div class="item-row">
-        <div class="item-row-split">
-          
-            <div class="item-split">
-              <strong class="network">LinkedIn</strong>
-              <div class="url">
-                <a target="_blank" href="https://linkedin.com/in/mohsenoid/">mohsenoid</a>
-              </div>
-            </div>
-          
-            <div class="item-split">
-              <strong class="network">Twitter</strong>
-              <div class="url">
-                <a target="_blank" href="https://twitter.com/mohsenoid">mohsenoid</a>
-              </div>
-            </div>
-          
-            <div class="item-split">
-              <strong class="network">Mastodon</strong>
-              <div class="url">
-                <a target="_blank" href="https://androiddev.social/@mohsenoid">mohsenoid</a>
-              </div>
-            </div>
-          
-            <div class="item-split">
-              <strong class="network">Github</strong>
-              <div class="url">
-                <a target="_blank" href="https://github.com/mohsenoid">mohsenoid</a>
-              </div>
-            </div>
-          
-            <div class="item-split">
-              <strong class="network">YouTube</strong>
-              <div class="url">
-                <a target="_blank" href="https://www.youtube.com/AndroidDeveloperTips">AndroidDeveloperTips</a>
-              </div>
-            </div>
-          
-            <div class="item-split">
-              <strong class="network">Medium</strong>
-              <div class="url">
-                <a target="_blank" href="https://mohsenoid.medium.com/">mohsenoid</a>
-              </div>
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- Work -->
-    
-
-
-  <section id="work" class="section">
-    <aside class="section-title">
-      <h3>Work</h3>
-    </aside>
-    <div class="section-content">
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Loop Now Technologies (Firework)</span>
-            <span class="date">
-              April 2022 — May 2024
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href="https://firework.com/">firework.com/</a>
-          </div>
-          <div class="position">
-            Android Team/Tech Lead (Full-Time | Remote)
-          </div>
-          <div class="summary">
-            <p>Developing and owning the Firework Android SDK that is used by millions of users, allowing every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.</p>
-          </div>
-          
-            <p><strong>Highlights</strong></p>
-            <ul class="highlights">
-              
-                <li class="bullet">Challenging with SDK development limitations like not being allowed to depend on open source libraries and therefore designing and developing everything from scratch.</li>
-              
-                <li class="bullet">Designing and developing the SDK architecture with over 50 different modules</li>
-              
-                <li class="bullet">Implementing automations and processes that improved development speed</li>
-              
-                <li class="bullet">Mentoring team members, resulting: improved code quality, faster time to production</li>
-              
-                <li class="bullet">Collaborating with both product managers and customers</li>
-              
-            </ul>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Bettermile (GLS eCom Lab)</span>
-            <span class="date">
-              March 2020 — March 2022
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href="https://bettermile.com">bettermile.com</a>
-          </div>
-          <div class="position">
-            Senior Android Developer (Full-Time)
-          </div>
-          <div class="summary">
-            <p>Helping GLS last mile drivers in Europe on listing parcels to deliver and navigating through waypoints to meet for a day tour.</p>
-          </div>
-          
-            <p><strong>Highlights</strong></p>
-            <ul class="highlights">
-              
-                <li class="bullet">Taking over an out-sourced Android project and make it in-house by refactoring most of legacy codes and defining and automating work flows.</li>
-              
-                <li class="bullet">Giving love to a code base done by multiple freelancers</li>
-              
-                <li class="bullet">Implementing Turn-by-Turn navigation using Here SDK</li>
-              
-                <li class="bullet">Developing an Android library to communicate with 3rd party apps</li>
-              
-                <li class="bullet">Defining technical and nontechnical flows including release automation and CI/CD</li>
-              
-            </ul>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>German Autolabs</span>
-            <span class="date">
-              February 2017 — March 2020
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href="https://germanautolabs.com/">germanautolabs.com/</a>
-          </div>
-          <div class="position">
-            Senior Android Developer &amp; Teamlead (Full-Time)
-          </div>
-          <div class="summary">
-            <p>Working on a complex AI-based Automotive Voice Assistant (AVA) platform and Chris the digital assistant for drivers based on the AVA platform project.</p>
-          </div>
-          
-            <p><strong>Highlights</strong></p>
-            <ul class="highlights">
-              
-                <li class="bullet">Starting the Chris companion android app development from scratch and successfully releasing it into production after more than 1-year designing and prototyping.</li>
-              
-                <li class="bullet">Defining a proper codebase and project structure including architecture and modules</li>
-              
-                <li class="bullet">Managing a secure solution for communication over BLE using Protobuf</li>
-              
-                <li class="bullet">Setting an appropriate CI/CD pipeline including version control and release systems</li>
-              
-                <li class="bullet">Being an active member of product tech leads and core management team</li>
-              
-            </ul>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Karina Mobile Solutions</span>
-            <span class="date">
-              February 2013 — January 2017
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="position">
-            Senior Android Developer &amp; Teamlead (Full-Time)
-          </div>
-          <div class="summary">
-            <p>Participating in multiple projects including a social network platform and a music streaming service. Promoting to Senior Android developer and team lead in a short time.</p>
-          </div>
-          
-            <p><strong>Highlights</strong></p>
-            <ul class="highlights">
-              
-                <li class="bullet">Developing a game social network application using RESTful APIs</li>
-              
-                <li class="bullet">Developing a newsreader application and a music streaming service application</li>
-              
-                <li class="bullet">Managing multiple Applications based on VAS back-end systems (by SMS/USSD)</li>
-              
-                <li class="bullet">Consulting mobile application solutions for B2B customers and content providers</li>
-              
-            </ul>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Hafez Health Group &amp; ATD</span>
-            <span class="date">
-              September 2012 — February 2013
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="position">
-            Android Developer (Part-Time | Freelance)
-          </div>
-          <div class="summary">
-            <p>Developing multiple big and small applications as a part-time job namely Tehran traffic map application, food ordering application, roadside assistance application using GPS and maps APIs, food calorie meter, and insulin reminder for diabetics patients.</p>
-          </div>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Fanava Nevisan</span>
-            <span class="date">
-              August 2006 — February 2013
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="position">
-            Software Developer &amp; Database Manager (Self-employed)
-          </div>
-          <div class="summary">
-            <p>Founded my own company and worked on Software projects using C++, C#, SQL, ASP, and .net technology.</p>
-          </div>
-          
-        </div>
-      
-    </div>
-  </section>
-
-
-    <!-- Skills -->
-    
-
-
-  <section id="skills" class="section">
-    <aside class="section-title">
-      <h3>Skills</h3>
-    </aside>
-    <div class="section-content">
-      <div class="item-row">
-        <div class="item-row-split">
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Software Architectural Design</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>SOLID</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>CleanArchitecture</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Android Development</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Java Programming</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>RxJava / RxAndroid</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Kotlin Programming</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Coroutines</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Dependency Injection</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Testing</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>RESTful WebServices</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Git/GitFlow</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>CI/CD</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>MVP/MVVM</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Protobuf</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>MockK</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Espresso</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>ORM</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>NDK</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Effective communication</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Team Leadership</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Public Speaking</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Internet of Things (IoT)</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>GraphQL</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Phoenix Websocket</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Compose UI</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Bluetooth/BLE</h4>
-              </div>
-              
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>GPS/Maps</h4>
-              </div>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- Education -->
-    
-
-
-  <section id="education" class="section">
-    <aside class="section-title">
-      <h3>Education</h3>
-    </aside>
-    <div class="section-content">
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Computer Software Engineering</span>
-            <span class="date">
-              December 2005 — December 2008
-            </span>
-          </h4>
-          <div class="area">Computer Software Engineering</div>
-          <div class="studyType">
-            BSc
-            
-          </div>
-          
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>University of Science and Art</span>
-            <span class="date">
-              December 2003 — December 2005
-            </span>
-          </h4>
-          <div class="area">Computer Software</div>
-          <div class="studyType">
-            ASc
-            
-          </div>
-          
-        </div>
-      
-    </div>
-  </section>
-
-
-    <!-- Certificates -->
-    
-
-
-
-    <!-- Awards -->
-    
-
-
-  <section id="awards" class="section">
-    <aside class="section-title">
-      <h3>Awards</h3>
-    </aside>
-    <div class="section-content">
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Instructor at IranMobiCode 2014 Unity3D Workshop</span>
-          </h4>
-          <div class="date pull-right">
-            <em>Awarded</em>
-            March 2014
-          </div>
-          <div>
-            <em>by</em>
-            <strong>Amirkabir University</strong>
-          </div>
-          <div class="summary">
-            Speaking about Mobile game development and Unity3D workshop.
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Winner of 2nd Shokoofa Festival Award 2014</span>
-          </h4>
-          <div class="date pull-right">
-            <em>Awarded</em>
-            February 2014
-          </div>
-          <div>
-            <em>by</em>
-            <strong>Tehran Municipality</strong>
-          </div>
-          <div class="summary">
-            Winner of the 3rd position at the best urban services mobile application for Tehran Traffic Map app.
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Instructor at Tehran&#39;s 2nd Android Bootcamp</span>
-          </h4>
-          <div class="date pull-right">
-            <em>Awarded</em>
-            May 2013
-          </div>
-          <div>
-            <em>by</em>
-            <strong>Tehran Municipality</strong>
-          </div>
-          <div class="summary">
-            Advanced Android app development workshop
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Instructor at Tehran&#39;s 1st Android Bootcamp</span>
-          </h4>
-          <div class="date pull-right">
-            <em>Awarded</em>
-            April 2013
-          </div>
-          <div>
-            <em>by</em>
-            <strong>Tehran Municipality</strong>
-          </div>
-          <div class="summary">
-            Basic Android app development workshop
-          </div>
-        </div>
-      
-    </div>
-  </section>
-
-
-
-    <!-- Projects -->
-    
-
-
-
-    <!-- Volunteer -->
-    
-
-
-
-    <!-- Publications -->
-    
-
-
-  <section id="publications" class="section">
-    <aside class="section-title">
-      <h3>Publications</h3>
-    </aside>
-    <div class="section-content">
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Fun with Kotlin</span>
-            <span class="date">May 2024</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>fun code() - A magazine for Kotlin™ developers</strong>
-          </div>
-          <div class="summary">
-            <p>A fun article about Kotlin language by Microsoft Copilot AI, reviewed, improved, and organized by Human!</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>How to setup your Android app to use Protobuf</span>
-            <span class="date">December 2017</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>ProAndroidDev</strong>
-          </div>
-          <div class="summary">
-            <p>Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data.
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a></li><li><a href="#publications"><i class="mr-10 icon-newspaper"></i>Publications</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li><li><a href="#references"><i class="mr-10 icon-thumbs-up"></i>References</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Mohsen Mirhoseini" src="https://s.gravatar.com/avatar/72b0ca8ad84812abd50f1fb26d137ac2?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Mohsen Mirhoseini</b></h3><h5 class="text-muted" itemprop="jobTitle">Android Team/Tech Lead at Firework</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Berlin, Germany, DE</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">+4915732197325</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:msn.mirhoseini@gmail.com" itemprop="email">msn.mirhoseini@gmail.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Persian, English, German</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://linkedin.com/in/mohsenoid/" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on LinkedIn"></a><a class="fs-2x social-link link-twitter icon-twitter" href="https://twitter.com/mohsenoid" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on Twitter"></a><a class="fs-2x social-link link-mastodon icon-mastodon" href="https://androiddev.social/@mohsenoid" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on Mastodon"></a><a class="fs-2x social-link link-github icon-github" href="https://github.com/mohsenoid" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on Github"></a><a class="fs-2x social-link link-youtube icon-youtube" href="https://www.youtube.com/AndroidDeveloperTips" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on YouTube"></a><button class="btn btn-default btn-sm btn-circle-sm pull-right js-profiles-collapse" data-toggle="collapse" data-target="#remaining-profiles"><i class="icon-chevron-down fs-lg"></i></button><div class="collapse text-left" id="remaining-profiles"><a class="fs-2x social-link link-medium icon-medium" href="https://mohsenoid.medium.com/" target="_blank" data-toggle="tooltip" title="Mohsen Mirhoseini on Medium"></a></div></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2006 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.</p>
+<p>I am a computer geek who cannot resist Mobile apps, IoT, Tech talks, and video gaming.</p>
+<p>Besides publishing articles on Medium, I am also a YouTuber and share my experiences in developing Android apps on a YouTube channel called &quot;Android Developer Tips&quot; for the whole Android community.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Android Team/Tech Lead (Full-Time | Remote)</strong>,&nbsp;<a href="https://firework.com/" target="_blank">Loop Now Technologies (Firework)</a></p><p class="text-muted"><small><span class="space-right">Apr, 2022 - May, 2024</span><span><i class="icon-clock mr-5"></i>2 years 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Developing and owning the Firework Android SDK that is used by millions of users, allowing every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.</p>
+</div><ul><li class="mop-wrapper"><p>Challenging with SDK development limitations like not being allowed to depend on open source libraries and therefore designing and developing everything from scratch.</p>
+</li><li class="mop-wrapper"><p>Designing and developing the SDK architecture with over 50 different modules</p>
+</li><li class="mop-wrapper"><p>Implementing automations and processes that improved development speed</p>
+</li><li class="mop-wrapper"><p>Mentoring team members, resulting: improved code quality, faster time to production</p>
+</li><li class="mop-wrapper"><p>Collaborating with both product managers and customers</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Android Developer (Full-Time)</strong>,&nbsp;<a href="https://bettermile.com" target="_blank">Bettermile (GLS eCom Lab)</a></p><p class="text-muted"><small><span class="space-right">Mar, 2020 - Mar, 2022</span><span><i class="icon-clock mr-5"></i>2 years</span></small></p><div class="mop-wrapper space-bottom"><p>Helping GLS last mile drivers in Europe on listing parcels to deliver and navigating through waypoints to meet for a day tour.</p>
+</div><ul><li class="mop-wrapper"><p>Taking over an out-sourced Android project and make it in-house by refactoring most of legacy codes and defining and automating work flows.</p>
+</li><li class="mop-wrapper"><p>Giving love to a code base done by multiple freelancers</p>
+</li><li class="mop-wrapper"><p>Implementing Turn-by-Turn navigation using Here SDK</p>
+</li><li class="mop-wrapper"><p>Developing an Android library to communicate with 3rd party apps</p>
+</li><li class="mop-wrapper"><p>Defining technical and nontechnical flows including release automation and CI/CD</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Android Developer &amp; Teamlead (Full-Time)</strong>,&nbsp;<a href="https://germanautolabs.com/" target="_blank">German Autolabs</a></p><p class="text-muted"><small><span class="space-right">Feb, 2017 - Mar, 2020</span><span><i class="icon-clock mr-5"></i>3 years 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Working on a complex AI-based Automotive Voice Assistant (AVA) platform and Chris the digital assistant for drivers based on the AVA platform project.</p>
+</div><ul><li class="mop-wrapper"><p>Starting the Chris companion android app development from scratch and successfully releasing it into production after more than 1-year designing and prototyping.</p>
+</li><li class="mop-wrapper"><p>Defining a proper codebase and project structure including architecture and modules</p>
+</li><li class="mop-wrapper"><p>Managing a secure solution for communication over BLE using Protobuf</p>
+</li><li class="mop-wrapper"><p>Setting an appropriate CI/CD pipeline including version control and release systems</p>
+</li><li class="mop-wrapper"><p>Being an active member of product tech leads and core management team</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Android Developer &amp; Teamlead (Full-Time)</strong>,&nbsp;Karina Mobile Solutions</p><p class="text-muted"><small><span class="space-right">Feb, 2013 - Jan, 2017</span><span><i class="icon-clock mr-5"></i>3 years 11 months</span></small></p><div class="mop-wrapper space-bottom"><p>Participating in multiple projects including a social network platform and a music streaming service. Promoting to Senior Android developer and team lead in a short time.</p>
+</div><ul><li class="mop-wrapper"><p>Developing a game social network application using RESTful APIs</p>
+</li><li class="mop-wrapper"><p>Developing a newsreader application and a music streaming service application</p>
+</li><li class="mop-wrapper"><p>Managing multiple Applications based on VAS back-end systems (by SMS/USSD)</p>
+</li><li class="mop-wrapper"><p>Consulting mobile application solutions for B2B customers and content providers</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Android Developer (Part-Time | Freelance)</strong>,&nbsp;Hafez Health Group &amp; ATD</p><p class="text-muted"><small><span class="space-right">Sep, 2012 - Feb, 2013</span><span><i class="icon-clock mr-5"></i>5 months</span></small></p><div class="mop-wrapper space-bottom"><p>Developing multiple big and small applications as a part-time job namely Tehran traffic map application, food ordering application, roadside assistance application using GPS and maps APIs, food calorie meter, and insulin reminder for diabetics patients.</p>
+</div></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Developer &amp; Database Manager (Self-employed)</strong>,&nbsp;Fanava Nevisan</p><p class="text-muted"><small><span class="space-right">Aug, 2006 - Feb, 2013</span><span><i class="icon-clock mr-5"></i>6 years 6 months</span></small></p><div class="mop-wrapper space-bottom"><p>Founded my own company and worked on Software projects using C++, C#, SQL, ASP, and .net technology.</p>
+</div></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Software Architectural Design</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>SOLID</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>CleanArchitecture</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Android Development</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Java Programming</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>RxJava / RxAndroid</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Kotlin Programming</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Coroutines</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Dependency Injection</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Testing</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>RESTful WebServices</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Git/GitFlow</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>CI/CD</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>MVP/MVVM</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Protobuf</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>MockK</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Espresso</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>ORM</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>NDK</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Effective communication</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Team Leadership</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Public Speaking</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Internet of Things (IoT)</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>GraphQL</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Phoenix Websocket</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Compose UI</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Bluetooth/BLE</strong></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>GPS/Maps</strong></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Software Engineering, BSc,&nbsp;</strong>Computer Software Engineering</p><p class="text-muted clear-margin"><small>Dec, 2005 - Dec, 2008</small></p><i></i></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Software, ASc,&nbsp;</strong>University of Science and Art</p><p class="text-muted clear-margin"><small>Dec, 2003 - Dec, 2005</small></p><i></i></div></li></ul></div></div></div><div class="detail" id="awards"><div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span></div><div class="info"><h4 class="title text-uppercase">Awards</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>Instructor at IranMobiCode 2014 Unity3D Workshop </strong>,&nbsp;Amirkabir University</p><p class="text-muted"><small>Awarded on: Mar 31, 2014</small></p><div class="mop-wrapper"><p>Speaking about Mobile game development and Unity3D workshop.</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>Winner of 2nd Shokoofa Festival Award 2014 </strong>,&nbsp;Tehran Municipality</p><p class="text-muted"><small>Awarded on: Feb 28, 2014</small></p><div class="mop-wrapper"><p>Winner of the 3rd position at the best urban services mobile application for Tehran Traffic Map app.</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>Instructor at Tehran's 2nd Android Bootcamp </strong>,&nbsp;Tehran Municipality</p><p class="text-muted"><small>Awarded on: May 31, 2013</small></p><div class="mop-wrapper"><p>Advanced Android app development workshop</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>Instructor at Tehran's 1st Android Bootcamp </strong>,&nbsp;Tehran Municipality</p><p class="text-muted"><small>Awarded on: Apr 30, 2013</small></p><div class="mop-wrapper"><p>Basic Android app development workshop</p>
+</div></div></li></ul></div></div></div><div class="detail" id="publications"><div class="icon"><i class="fs-lg icon-newspaper"></i><span class="mobile-title">Publications</span></div><div class="info"><h4 class="title text-uppercase">Publications</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://kotlintoday.com/" target="_blank">Fun with Kotlin</a>&nbsp;,&nbsp;</strong>fun code() - A magazine for Kotlin™ developers</p><p class="text-muted"><small>Published on: May 23, 2024</small></p><div class="mop-wrapper"><p>A fun article about Kotlin language by Microsoft Copilot AI, reviewed, improved, and organized by Human!</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/Bq6WrK" target="_blank">How to setup your Android app to use Protobuf</a>&nbsp;,&nbsp;</strong>ProAndroidDev</p><p class="text-muted"><small>Published on: Dec 23, 2017</small></p><div class="mop-wrapper"><p>Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data.<br>
 In this article I talk about how to use it in your Android app.</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>My first experiences with Kotlin</span>
-            <span class="date">May 2017</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>Hacker Noon</strong>
-          </div>
-          <div class="summary">
-            <p>Kotlin is a new language which at least most of Android developers heard about it or are using it instead of Java.
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/gcb6An" target="_blank">My first experiences with Kotlin</a>&nbsp;,&nbsp;</strong>Hacker Noon</p><p class="text-muted"><small>Published on: May 07, 2017</small></p><div class="mop-wrapper"><p>Kotlin is a new language which at least most of Android developers heard about it or are using it instead of Java.<br>
 Out of my curiosity start learning it to know what’s attractive inside that makes some developer crazy about it! so during my learning process I have made some notes which might look too minified but contains keywords for beginners and your later searches.</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Creating a quick fancy Android application prototype</span>
-            <span class="date">April 2017</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>Hacker Noon</strong>
-          </div>
-          <div class="summary">
-            <p>All programmers with Mobile Application development experience have been in the situation of trying to create a prototype to showcase the application idea in a quick way!
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/FMoyW8" target="_blank">Creating a quick fancy Android application prototype</a>&nbsp;,&nbsp;</strong>Hacker Noon</p><p class="text-muted"><small>Published on: Apr 15, 2017</small></p><div class="mop-wrapper"><p>All programmers with Mobile Application development experience have been in the situation of trying to create a prototype to showcase the application idea in a quick way!<br>
 Creating a prototype is a tricky task in term of time and quality. Usually you have the minimum time available for creating a fancy Application which must not work but look perfect. How is this possible? No one knows that we have to code or design for every animation or loading data to list in Android, which is really time consuming.</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>JetBrains JVM Debugger Memory View plugin</span>
-            <span class="date">January 2017</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>Hacker Noon</strong>
-          </div>
-          <div class="summary">
-            <p>During my recent R&amp;D activities looking for new tools to improve my development experience and making life easier with Android Studio, I found a useful plugin which I have never heard before. This is why, I decided to write about this mighty tool and how it helps me with memory debugging my applications.</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>MVP — How to present different errors on View Layer</span>
-            <span class="date">December 2016</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>Hacker Noon</strong>
-          </div>
-          <div class="summary">
-            <p>Using MVP we are always busy with interfaces to transfer different messages from presenter layer to view layer and presenting them to user, But when it comes to error handling, are all these methods required and likely to get fired or even predictable?</p>
-          </div>
-        </div>
-      
-        <div class="item-row">
-          <h4 class="strike-through">
-            <span>Yet another MVP article</span>
-            <span class="date">November 2016</span>
-          </h4>
-          <div class="website pull-right">
-            <a target="_blank" href=""></a>
-          </div>
-          <div class="publisher">
-            <em>Published by</em>
-            <strong>Hacker Noon</strong>
-          </div>
-          <div class="summary">
-            <p>It is a 5-part article about an Android sample application which follows MVP rules.
-
-Part 1: Let&#39;s get to know the project
-https://goo.gl/tGUcDB
-
- Part 2: How Dagger helps with the project
-https://goo.gl/8KxyL3
-
-Part 3: Calling APIs using Retrofit
-https://goo.gl/33da8p
-
-Part 4: RxJava and RxAndroid know how to response
-https://goo.gl/Nu8TuZ
-
-Part 5: Writing Test using a mixture of Dagger and Espresso
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/MC2umG" target="_blank">JetBrains JVM Debugger Memory View plugin</a>&nbsp;,&nbsp;</strong>Hacker Noon</p><p class="text-muted"><small>Published on: Jan 15, 2017</small></p><div class="mop-wrapper"><p>During my recent R&amp;D activities looking for new tools to improve my development experience and making life easier with Android Studio, I found a useful plugin which I have never heard before. This is why, I decided to write about this mighty tool and how it helps me with memory debugging my applications.</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/5PsCjf" target="_blank">MVP — How to present different errors on View Layer</a>&nbsp;,&nbsp;</strong>Hacker Noon</p><p class="text-muted"><small>Published on: Dec 17, 2016</small></p><div class="mop-wrapper"><p>Using MVP we are always busy with interfaces to transfer different messages from presenter layer to view layer and presenting them to user, But when it comes to error handling, are all these methods required and likely to get fired or even predictable?</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin"><strong><a href="https://goo.gl/Ro71GG" target="_blank">Yet another MVP article</a>&nbsp;,&nbsp;</strong>Hacker Noon</p><p class="text-muted"><small>Published on: Nov 29, 2016</small></p><div class="mop-wrapper"><p>It is a 5-part article about an Android sample application which follows MVP rules.</p>
+<p>Part 1: Let's get to know the project<br>
+https://goo.gl/tGUcDB</p>
+<p>Part 2: How Dagger helps with the project<br>
+https://goo.gl/8KxyL3</p>
+<p>Part 3: Calling APIs using Retrofit<br>
+https://goo.gl/33da8p</p>
+<p>Part 4: RxJava and RxAndroid know how to response<br>
+https://goo.gl/Nu8TuZ</p>
+<p>Part 5: Writing Test using a mixture of Dagger and Espresso<br>
 https://goo.gl/6cxQ4a</p>
-          </div>
-        </div>
-      
-    </div>
-  </section>
-
-
-    <!-- Languages -->
-    
-
-
-  <section id="languages" class="section">
-    <aside class="section-title">
-      <h3>Languages</h3>
-    </aside>
-    <div class="section-content">
-      <div class="item-row">
-        <div class="item-row-split">
-          
-            <div class="item-split">
-              <div class="language"><strong>Persian</strong></div>
-              <div class="fluency">Native Speaker</div>
-            </div>
-          
-            <div class="item-split">
-              <div class="language"><strong>English</strong></div>
-              <div class="fluency">C1</div>
-            </div>
-          
-            <div class="item-split">
-              <div class="language"><strong>German</strong></div>
-              <div class="fluency">A2</div>
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- Interests -->
-    
-
-
-  <section id="interests" class="section">
-    <aside class="section-title">
-      <h3>Interests</h3>
-    </aside>
-    <div class="section-content">
-      <div class="item-row">
-        <div class="item-row-split">
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>YouTube</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Photography</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Video Games</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Billiard</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Tech News</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-            <div class="item-split">
-              <div class="name">
-                <h4>Android community</h4>
-              </div>
-              <ul class="keywords">
-                
-              </ul>
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <!-- References -->
-    
-
-
-  <section id="references" class="section">
-    <aside class="section-title">
-      <h3>References</h3>
-    </aside>
-    <div class="section-content">
-      
-        <div class="item-row">
-          <p>Mohsen is an outstanding engineer who consistently delivers high-quality work and demonstrates a strong work ethic. Despite working remotely, he fosters a genuine sense of teamwork through his proactive approach and calm, confident demeanor, making him especially valuable to the team when under pressure.  
-
-I have also been very impressed by his readiness to offer guidance and support to fellow engineers. His ability to share knowledge and explain complex technical concepts in a simple, intuitive manner is truly amazing.</p>
-          <p class="name">
-            <strong>— Rick Zhuang (CTO at Firework)</strong></p>
-          </p>
-          <br>
-        </div>
-      
-        <div class="item-row">
-          <p>I have had the pleasure of working closely with Mohsen during his tenure at Firework, and I cannot recommend him highly enough. Mohsen is an outstanding Android developer and a natural leader who consistently goes above and beyond to support our team and ensure project success.
-
-Mohsen&#39;s technical expertise in Android development is truly impressive. He demonstrates a deep understanding of the platform and consistently delivers high-quality code that meets our project requirements. His ability to solve complex technical challenges efficiently and effectively is remarkable, making him an invaluable asset to any team.
-
-As a Tech Lead, Mohsen&#39;s leadership skills shine brightly. He is always ready to jump in and provide guidance and support whenever needed. Whether it&#39;s troubleshooting issues, coordinating with other teams to unblock work, or mentoring junior developers, Mohsen handles it all with professionalism and a positive attitude.
-
-One of Mohsen&#39;s most admirable qualities is his commitment to best coding practices and standards. He consistently advocates for the adoption of industry best practices, ensuring that our projects maintain a high level of quality and efficiency. His attention to detail and dedication to writing clean, maintainable code sets a standard for excellence that inspires the entire team.
-
-Overall, Mohsen is an exceptional Android developer and Tech Lead who has made invaluable contributions to our team at Firework. I have no doubt that he will continue to excel in his future endeavors, and I wholeheartedly recommend him for any role that demands technical excellence, leadership, and a passion for innovation.</p>
-          <p class="name">
-            <strong>— Shrutika Madda (PM at Firework)</strong></p>
-          </p>
-          <br>
-        </div>
-      
-        <div class="item-row">
-          <p>I am pleased to recommend Mohsen for the position of Mobile Engineer Lead or any relative engineer lead roles. During his time at Firework, he has consistently demonstrated exceptional kindness, politeness, and a swift responsiveness that enhances team efficiency. His technical expertise spans iOS and Android app development, SDKs, Flutter, and React Native, making him an invaluable asset. In charge of a cross-border international engineering team, Mohsen effectively coordinates efforts and ensures seamless collaboration. He often goes beyond his scope, actively assisting other departments such as Customer Success and Technical Solutions, demonstrating his dedication and teamwork.
-
-Mohsen’s proactive approach and comprehensive knowledge have significantly contributed to the success of our projects. His willingness to reach out and support various team members fosters a collaborative and supportive work environment. I am confident that Mohsen will bring the great level of excellence and dedication to any organization he joins!</p>
-          <p class="name">
-            <strong>— Martin Zheng (Customer Success at Firework)</strong></p>
-          </p>
-          <br>
-        </div>
-      
-        <div class="item-row">
-          <p>Mohsen showed a high level of reliability and professionalism in his role as a Senior Android Developer at GLS EcomLab (Bettermile Gmbh). He took care of his responsibilities promptly, in an organized way: taking ownership from the beginning to the end. Mohsen was a valuable member in projects where technical details had to be communicated and explained in detail and clarity to the stakeholders and clients, due to his excellent communication skills. He has positively contributed to the
+</div></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>YouTube</strong></p></li><li class="card card-nested"><p><strong>Photography</strong></p></li><li class="card card-nested"><p><strong>Video Games</strong></p></li><li class="card card-nested"><p><strong>Billiard</strong></p></li><li class="card card-nested"><p><strong>Tech News</strong></p></li><li class="card card-nested"><p><strong>Android community</strong></p></li></ul></div></div></div><div class="detail" id="references"><div class="icon"><i class="fs-lg icon-thumbs-up"></i><span class="mobile-title">References</span></div><div class="info"><h4 class="title text-uppercase">References</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested">Rick Zhuang (CTO at Firework)<blockquote class="quote"><div class="mop-wrapper"><p>Mohsen is an outstanding engineer who consistently delivers high-quality work and demonstrates a strong work ethic. Despite working remotely, he fosters a genuine sense of teamwork through his proactive approach and calm, confident demeanor, making him especially valuable to the team when under pressure.</p>
+<p>I have also been very impressed by his readiness to offer guidance and support to fellow engineers. His ability to share knowledge and explain complex technical concepts in a simple, intuitive manner is truly amazing.</p>
+</div></blockquote></li><li class="card card-nested">Shrutika Madda (PM at Firework)<blockquote class="quote"><div class="mop-wrapper"><p>I have had the pleasure of working closely with Mohsen during his tenure at Firework, and I cannot recommend him highly enough. Mohsen is an outstanding Android developer and a natural leader who consistently goes above and beyond to support our team and ensure project success.</p>
+<p>Mohsen's technical expertise in Android development is truly impressive. He demonstrates a deep understanding of the platform and consistently delivers high-quality code that meets our project requirements. His ability to solve complex technical challenges efficiently and effectively is remarkable, making him an invaluable asset to any team.</p>
+<p>As a Tech Lead, Mohsen's leadership skills shine brightly. He is always ready to jump in and provide guidance and support whenever needed. Whether it's troubleshooting issues, coordinating with other teams to unblock work, or mentoring junior developers, Mohsen handles it all with professionalism and a positive attitude.</p>
+<p>One of Mohsen's most admirable qualities is his commitment to best coding practices and standards. He consistently advocates for the adoption of industry best practices, ensuring that our projects maintain a high level of quality and efficiency. His attention to detail and dedication to writing clean, maintainable code sets a standard for excellence that inspires the entire team.</p>
+<p>Overall, Mohsen is an exceptional Android developer and Tech Lead who has made invaluable contributions to our team at Firework. I have no doubt that he will continue to excel in his future endeavors, and I wholeheartedly recommend him for any role that demands technical excellence, leadership, and a passion for innovation.</p>
+</div></blockquote></li><li class="card card-nested">Martin Zheng (Customer Success at Firework)<blockquote class="quote"><div class="mop-wrapper"><p>I am pleased to recommend Mohsen for the position of Mobile Engineer Lead or any relative engineer lead roles. During his time at Firework, he has consistently demonstrated exceptional kindness, politeness, and a swift responsiveness that enhances team efficiency. His technical expertise spans iOS and Android app development, SDKs, Flutter, and React Native, making him an invaluable asset. In charge of a cross-border international engineering team, Mohsen effectively coordinates efforts and ensures seamless collaboration. He often goes beyond his scope, actively assisting other departments such as Customer Success and Technical Solutions, demonstrating his dedication and teamwork.</p>
+<p>Mohsen’s proactive approach and comprehensive knowledge have significantly contributed to the success of our projects. His willingness to reach out and support various team members fosters a collaborative and supportive work environment. I am confident that Mohsen will bring the great level of excellence and dedication to any organization he joins!</p>
+</div></blockquote></li><li class="card card-nested">Laura Leponiemi (PM at GLS eCom Lab)<blockquote class="quote"><div class="mop-wrapper"><p>Mohsen showed a high level of reliability and professionalism in his role as a Senior Android Developer at GLS EcomLab (Bettermile Gmbh). He took care of his responsibilities promptly, in an organized way: taking ownership from the beginning to the end. Mohsen was a valuable member in projects where technical details had to be communicated and explained in detail and clarity to the stakeholders and clients, due to his excellent communication skills. He has positively contributed to the<br>
 quality of the product and always managed his tasks within the expected timelines. Mohsen was a true team player with a positive attitude and a high level of accountability. I would any time hire him again :)</p>
-          <p class="name">
-            <strong>— Laura Leponiemi (PM at GLS eCom Lab)</strong></p>
-          </p>
-          <br>
-        </div>
-      
-        <div class="item-row">
-          <p>Mohsen joined us in early 2017 as our first Android developer in building Chris, the digital assistant for drivers. He immediately settled in and built our Android app with an astonishing pace. All our developers were in admiration of his speed and output. By the end of 2017 his app had become the backbone to our early demos and Kickstarter backer livestreams, and Android our &#34;we build things first here&#34; platform. Mohsen is a great person to work with, fits into any team, can work with anyone, understands very fast what you are trying to achieve and will find fast and lean ways of building what you need, while not forgetting to refactor later and ensure a well polished code base. He is also a great evangelist, presenting at conferences and promoting the company. He built up a team of 3 Android developers, and was a very good team lead too. He is well respected amongst peers, team and management. He is a great asset to have in any team.</p>
-          <p class="name">
-            <strong>— Patrick Weissert (PM at German Autolabs)</strong></p>
-          </p>
-          <br>
-        </div>
-      
-    </div>
-  </section>
+</div></blockquote></li><li class="card card-nested">Patrick Weissert (PM at German Autolabs)<blockquote class="quote"><div class="mop-wrapper"><p>Mohsen joined us in early 2017 as our first Android developer in building Chris, the digital assistant for drivers. He immediately settled in and built our Android app with an astonishing pace. All our developers were in admiration of his speed and output. By the end of 2017 his app had become the backbone to our early demos and Kickstarter backer livestreams, and Android our &quot;we build things first here&quot; platform. Mohsen is a great person to work with, fits into any team, can work with anyone, understands very fast what you are trying to achieve and will find fast and lean ways of building what you need, while not forgetting to refactor later and ensure a well polished code base. He is also a great evangelist, presenting at conferences and promoting the company. He built up a team of 3 Android developers, and was a very good team lead too. He is well respected amongst peers, team and management. He is a great asset to have in any team.</p>
+</div></blockquote></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
 
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
 
-  </div>
-</body>
-</html>
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
+
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
