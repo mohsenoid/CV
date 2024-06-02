@@ -1,0 +1,642 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Mohsen Mirhoseini",
+    "label": "Android Team/Tech Lead at Firework",
+    "image": "",
+    "email": "msn.mirhoseini@gmail.com",
+    "phone": "+4915732197325",
+    "url": "https://mohsenoid.com",
+    "summary": "I am a senior software engineer with a passion for Android development. I have worked as a software developer since 2006 and later focused extensively on mobile applications since 2012. I also had a chance to lead and train other developers along the way.\n\nI am a computer geek who cannot resist Mobile apps, IoT, Tech talks, and video gaming.\n\nBesides publishing articles on Medium, I am also a YouTuber and share my experiences in developing Android apps on a YouTube channel called \"Android Developer Tips\" for the whole Android community.",
+    "location": {
+      "countryCode": "DE",
+      "address": "Berlin, Germany"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mohsenoid",
+        "url": "https://linkedin.com/in/mohsenoid/"
+      },
+      {
+        "network": "Twitter",
+        "username": "mohsenoid",
+        "url": "https://twitter.com/mohsenoid"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Firework",
+      "position": "Android Team/Tech Lead ",
+      "startDate": "2024-01-31",
+      "endDate": "2024-05-30",
+      "highlights": [],
+      "summary": "Developing and Leading the team developing the Firework Android SDK that allows every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.",
+      "url": "https://www.linkedin.com/company/fireworkhq/",
+      "location": "Germany"
+    },
+    {
+      "name": "Firework",
+      "position": "Sr. Android Software Engineer",
+      "startDate": "2022-04-30",
+      "endDate": "2024-03-31",
+      "highlights": [],
+      "summary": "Developing the Firework Android SDK that allows every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.",
+      "url": "https://www.linkedin.com/company/fireworkhq/",
+      "location": "Germany"
+    },
+    {
+      "name": "GLS eCom Lab GmbH",
+      "position": "Senior Android Developer",
+      "startDate": "2020-03-31",
+      "endDate": "2022-03-31",
+      "highlights": [],
+      "summary": "Helping GLS last-mile drivers in Europe on listing parcels to deliver and navigating through\nwaypoints to meet for a day tour.",
+      "url": "https://www.linkedin.com/company/gls-ecom-lab-gmbh/",
+      "location": "Berlin Area, Germany"
+    },
+    {
+      "name": "German Autolabs",
+      "position": "Senior Android Developer and Tech Lead",
+      "startDate": "2018-10-31",
+      "endDate": "2020-03-31",
+      "highlights": [],
+      "summary": "Working on Automotive Voice Assistant (AVA) platform and Chris (the digital assistant for drivers based on AVA) Android application and leading Android development team as a tech lead",
+      "url": "https://www.linkedin.com/company/german-autolabs/",
+      "location": "Berlin, Germany"
+    },
+    {
+      "name": "German Autolabs",
+      "position": "Senior Android Developer",
+      "startDate": "2017-02-28",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "summary": "Working on Chris the digital assistant for drivers Android application",
+      "url": "https://www.linkedin.com/company/german-autolabs/",
+      "location": "Berlin Area, Germany"
+    },
+    {
+      "name": "Karina Mobile Solutions",
+      "position": "Senior Android Developer and Mobile Team Lead",
+      "startDate": "2013-02-28",
+      "endDate": "2017-01-31",
+      "highlights": [],
+      "summary": "• Developing Android Applications using Native Java\n• Social Network Applications development using RESTful APIs\n• Application development on VAS back-end systems (by SMS/USSD)\n• Teaching and Helping Application Team\n• Analysis Mobile Solutions for different businesses",
+      "url": "https://www.linkedin.com/company/karina-mobile-solutions/",
+      "location": "Tehran, Iran"
+    },
+    {
+      "name": "Hafez Salamat Health Group",
+      "position": "Android Developer (Part-Time)",
+      "startDate": "2012-12-31",
+      "endDate": "2013-02-28",
+      "highlights": [],
+      "summary": "• Developing Android Applications using Native Java\n• Food Calorie Meter for patients and normal peoples\n• Insulin Reminder for diabetic people\n• Some minor Health Service Applications",
+      "url": "",
+      "location": "Tehran, Iran"
+    },
+    {
+      "name": "Armangarayan Technology Development",
+      "position": "Android Developer (Part-Time)",
+      "startDate": "2012-09-30",
+      "endDate": "2013-02-28",
+      "highlights": [],
+      "summary": "• Developing Android Applications using Native Java\n• Atawich Food Order Android Application\n• Roadside Assistance Android Application using GPS\n• Analysis Mobile Solutions for different businesses",
+      "url": "",
+      "location": "Tehran, Iran"
+    },
+    {
+      "name": "Fanava Nevisan",
+      "position": "Software Developer / Database Manager",
+      "startDate": "2006-08-31",
+      "endDate": "2013-02-28",
+      "highlights": [],
+      "summary": "Founded my own company and worked on various Software projects\n• Windows Software Development using C# .Net\n• Databases Management using SQL Server\n• HR and ERP Software Support",
+      "url": "",
+      "location": "Tehran, Iran"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "MOI",
+      "position": "Software Developer",
+      "startDate": "2006-01-31",
+      "endDate": "2006-03-31",
+      "summary": "Worked as a DB manager and software developer",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shomal University at Amol",
+      "area": "Computer Software Engineering",
+      "studyType": "Bachelor's degree",
+      "startDate": "2005-12-31",
+      "endDate": "2008-12-31",
+      "score": "Graduated as top student in in OOP, C++ programming & SQL Database Management Co",
+      "courses": []
+    },
+    {
+      "institution": "University of Science and Art",
+      "area": "Computer Software",
+      "studyType": "Associate's degree",
+      "startDate": "2003-12-31",
+      "endDate": "2005-12-31",
+      "score": "Awarded as top student in Programming & Database Fundamentals Courses",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Instructor at IranMobiCode 2014 Unity3D Workshop",
+      "date": "2014-03-31",
+      "awarder": "Amirkabir University",
+      "summary": "Speaks about Mobile game development and Unity3D workshop."
+    },
+    {
+      "title": "Winner of 2nd Shokoofa Festival Award 2014",
+      "date": "2014-02-28",
+      "awarder": "Tehran Municipality",
+      "summary": "Winner of the 3rd position at the best urban services mobile application for Tehran Traffic Map app."
+    },
+    {
+      "title": "Instructor at Tehran's 2nd Android Bootcamp",
+      "date": "2013-05-31",
+      "awarder": "Tehran Municipality",
+      "summary": "Speaks about Mobile applications and advanced Android workshop."
+    },
+    {
+      "title": "Instructor at Tehran's 1st Android Bootcamp",
+      "date": "2013-04-30",
+      "awarder": "Tehran Municipality",
+      "summary": "Speaks about Mobile applications and basic Android workshop."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Smartphone Emerging Technologies",
+      "issuer": "Coursera Verified Certificates",
+      "startDate": "2015-07-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/6MKEZ9MNU88D"
+    },
+    {
+      "name": "Programming Mobile Applications for Android Handheld Systems: Part 1",
+      "issuer": "Coursera Verified Certificates",
+      "startDate": "2015-08-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/LC2KCXP5E3"
+    },
+    {
+      "name": "Programming Mobile Applications for Android Handheld Systems: Part 2",
+      "issuer": "Coursera Verified Certificates",
+      "startDate": "2015-08-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/ABHKPR7PSU"
+    },
+    {
+      "name": "Duolingo German Fluency: Beginner (Estimated)",
+      "issuer": "Duolingo",
+      "startDate": "2015-11-30",
+      "url": "https://www.duolingo.com/msn.mirhos"
+    }
+  ],
+  "publications": [
+    {
+      "name": "How to setup your Android app to use Protobuf with Kotlin flavor and ignoring Protobuf pros and cons!",
+      "publisher": "ProAndroidDev",
+      "releaseDate": "2017-12-23",
+      "summary": "Protocol Buffers is a method of serializing structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an interface description language that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data.\nIn this article I talk about how to use it in your Android app.",
+      "url": "https://goo.gl/Bq6WrK"
+    },
+    {
+      "name": "My first experiences with Kotlin: some quick notes that might comes handy for beginners",
+      "publisher": "Hacker Noon",
+      "releaseDate": "2017-05-07",
+      "summary": "Kotlin is a new language which at least most of Android developers heard about it or are using it instead of Java.\nOut of my curiosity start learning it to know what’s attractive inside that makes some developer crazy about it! so during my learning process I have made some notes which might look too minified but contains keywords for beginners and your later searches.",
+      "url": "https://goo.gl/gcb6An"
+    },
+    {
+      "name": "Creating a quick fancy Android application prototype: Using Framer for Android prototyping",
+      "publisher": "Hacker Noon",
+      "releaseDate": "2017-04-15",
+      "summary": "All programmers with Mobile Application development experience have been in the situation of trying to create a prototype to showcase the application idea in a quick way!\nCreating a prototype is a tricky task in term of time and quality. Usually you have the minimum time available for creating a fancy Application which must not work but look perfect. How is this possible? No one knows that we have to code or design for every animation or loading data to list in Android, which is really time consuming.",
+      "url": "https://goo.gl/FMoyW8"
+    },
+    {
+      "name": "JetBrains JVM Debugger Memory View plugin: A useful memory debugger plugin for Android Studio",
+      "publisher": "Hacker Noon",
+      "releaseDate": "2017-01-15",
+      "summary": "During my recent R&D activities looking for new tools to improve my development experience and making life easier with Android Studio, I found a useful plugin which I have never heard before. This is why, I decided to write about this mighty tool and how it helps me with memory debugging my applications.",
+      "url": "https://goo.gl/MC2umG"
+    },
+    {
+      "name": "MVP — How to present different errors on View Layer using only one method?",
+      "publisher": "Hacker Noon",
+      "releaseDate": "2016-12-17",
+      "summary": "Using MVP we are always busy with interfaces to transfer different messages from presenter layer to view layer and presenting them to user, But when it comes to error handling, are all these methods required and likely to get fired or even predictable?",
+      "url": "https://goo.gl/5PsCjf"
+    },
+    {
+      "name": "Yet another MVP article",
+      "publisher": "Hacker Noon",
+      "releaseDate": "2016-11-29",
+      "summary": "It is a 5-part article about an Android sample application which follows MVP rules.\n\nPart 1: Let's get to know the project\nhttps://goo.gl/tGUcDB\n\n Part 2: How Dagger helps with the project\nhttps://goo.gl/8KxyL3\n\nPart 3: Calling APIs using Retrofit\nhttps://goo.gl/33da8p\n\nPart 4: RxJava and RxAndroid know how to response\nhttps://goo.gl/Nu8TuZ\n\nPart 5: Writing Test using a mixture of Dagger and Espresso\nhttps://goo.gl/6cxQ4a",
+      "url": "https://goo.gl/Ro71GG"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Internet of Things (IoT)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "German Autolabs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Room",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQLite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ORM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Architectural Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Reactive Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Fastlane",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Espresso",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OOD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mockito",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MVP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "RxJava",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MVVM",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debugging",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOLID",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Coroutines",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Realm",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dependency Injection",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DI",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OOP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "UI/UX Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dagger2",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bluetooth Low Energy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Game Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Robolectric",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unity3D",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "RESTful WebServices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JIRA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gradle",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OrmLite",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Full Professional",
+      "language": "English"
+    },
+    {
+      "fluency": "Elementary",
+      "language": "German"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Persian"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Martin Zheng",
+      "reference": "I am pleased to recommend Mohsen for the position of Mobile Engineer Lead or any relative engineer lead roles. During his time at Firework, he has consistently demonstrated exceptional kindness, politeness, and a swift responsiveness that enhances team efficiency. His technical expertise spans iOS and Android app development, SDKs, Flutter, and React Native, making him an invaluable asset. In charge of a cross-border international engineering team, Mohsen effectively coordinates efforts and ensures seamless collaboration. He often goes beyond his scope, actively assisting other departments such as Customer Success and Technical Solutions, demonstrating his dedication and teamwork.\n\nMohsen’s proactive approach and comprehensive knowledge have significantly contributed to the success of our projects. His willingness to reach out and support various team members fosters a collaborative and supportive work environment. I am confident that Mohsen will bring the great level of excellence and dedication to any organization he joins!"
+    },
+    {
+      "name": "Rick Zhuang",
+      "reference": "Mohsen is an outstanding engineer who consistently delivers high-quality work and demonstrates a strong work ethic. Despite working remotely, he fosters a genuine sense of teamwork through his proactive approach and calm, confident demeanor, making him especially valuable to the team when under pressure.  \n\nI have also been very impressed by his readiness to offer guidance and support to fellow engineers. His ability to share knowledge and explain complex technical concepts in a simple, intuitive manner is truly amazing."
+    },
+    {
+      "name": "Shrutika Madda",
+      "reference": "I have had the pleasure of working closely with Mohsen during his tenure at Firework, and I cannot recommend him highly enough. Mohsen is an outstanding Android developer and a natural leader who consistently goes above and beyond to support our team and ensure project success.\n\nMohsen's technical expertise in Android development is truly impressive. He demonstrates a deep understanding of the platform and consistently delivers high-quality code that meets our project requirements. His ability to solve complex technical challenges efficiently and effectively is remarkable, making him an invaluable asset to any team.\n\nAs a Tech Lead, Mohsen's leadership skills shine brightly. He is always ready to jump in and provide guidance and support whenever needed. Whether it's troubleshooting issues, coordinating with other teams to unblock work, or mentoring junior developers, Mohsen handles it all with professionalism and a positive attitude.\n\nOne of Mohsen's most admirable qualities is his commitment to best coding practices and standards. He consistently advocates for the adoption of industry best practices, ensuring that our projects maintain a high level of quality and efficiency. His attention to detail and dedication to writing clean, maintainable code sets a standard for excellence that inspires the entire team.\n\nOverall, Mohsen is an exceptional Android developer and Tech Lead who has made invaluable contributions to our team at Firework. I have no doubt that he will continue to excel in his future endeavors, and I wholeheartedly recommend him for any role that demands technical excellence, leadership, and a passion for innovation."
+    },
+    {
+      "name": "Laura Leponiemi",
+      "reference": "Mohsen showed a high level of reliability and professionalism in his role as a Senior Android Developer at GLS EcomLab (Bettermile Gmbh). He took care of his responsibilities promptly, in an organized way: taking ownership from the beginning to the end. Mohsen was a valuable member in projects where technical details had to be communicated and explained in detail and clarity to the stakeholders and clients, due to his excellent communication skills. He has positively contributed to the\nquality of the product and always managed his tasks within the expected timelines. Mohsen was a true team player with a positive attitude and a high level of accountability. I would any time hire him again :)"
+    },
+    {
+      "name": "Amir Ziarati",
+      "reference": "wanna learn new things ? try your best to be this man's colleague !! you will be dramatically shocked about how Mohsen knows almost everything about his field and better than that, how generously he is ready to teach you everything he knows.\nI learned 5 times more stuff working with Mohsen.\nhe is so greedy when it comes to learning new things. i have a sentence for him which i always say it : \"Mohsen is in the front line of the knowledge about his career\""
+    },
+    {
+      "name": "Nicholas McCann",
+      "reference": "Mohsen is an absolute pleasure to work with! While working with Mohsen at German Autolabs he was always friendly, approachable and happy to make himself available to assist me and my team with any questions or issues we had. He is a great communicator and is one of the rare developers that can explain technical details to non developers. I could not recommend Mohsen enough to any employer.   "
+    },
+    {
+      "name": "Patrick Weissert",
+      "reference": "Mohsen joined us in early 2017 as our first Android developer in building Chris, the digital assistant for drivers. He immediately settled in and built our Android app with an astonishing pace. All our developers were in admiration of his speed and output. By the end of 2017 his app had become the backbone to our early demos and Kickstarter backer livestreams, and Android our \"we build things first here\" platform. Mohsen is a great person to work with, fits into any team, can work with anyone, understands very fast what you are trying to achieve and will find fast and lean ways of building what you need, while not forgetting to refactor later and ensure a well polished code base. He is also a great evangelist, presenting at conferences and promoting the company. He built up a team of 3 Android developers, and was a very good team lead too. He is well respected amongst peers, team and management. He is a great asset to have in any team."
+    },
+    {
+      "name": "Galina Litkin",
+      "reference": "Mohsen is one of the most professional and pleasant persons I know. \nHe is a passionate developer who always finds a time to read more, try more, go for a conference and learn from others. \nBut even more important than his technical skills, he is a great team lead, he helps and listens.\nMohsen has an incredible ability to give the best results even under very stressful circumstances, but stays calm and professional, giving others a great feeling of trust and support.\nMohsen also loves to teach. In the past year and a half, there was not a single day that he hasn't teach me something. \nI would highly recommend Mohsen as a supervisor, colleague, and friend.\n\n"
+    },
+    {
+      "name": "Ostap Opalynskyi",
+      "reference": "Mohsen is an exceptional engineer whose technical knowledge goes far beyond development of mobile applications. But except that I want to admit extraordinary soft skills of this person. During 6 month which Mohsen was my team leader I didn't notice even a smallest sign of irritating or anxiety. He is calm, confident and positive even in the hardest situations.\nHe is a team leader that can teach, organize and inspire people."
+    },
+    {
+      "name": "Mostafa Soufi",
+      "reference": "Good-nature is one of Mohsen's best features, he is a motivated and preserved person that I was proud of working with him."
+    }
+  ],
+  "projects": [
+    {
+      "name": "SecondScreen",
+      "startDate": "2020-03-31",
+      "summary": "GLS last-mile Android app being used by drivers in Europe to list parcels and navigate through waypoints of a day tour.",
+      "url": null,
+      "endDate": "2020-03-31"
+    },
+    {
+      "name": "Sharjak (Top up reseller) - Android Application",
+      "startDate": "2016-06-30",
+      "summary": "This application allow users to buy top up charges for all 3 available cellphone operators in Iran.\nafter selecting default values or entering a custom value user will get an invoice calculated with taxes and will take to BankGateway and pay for it and after that receive a result report.",
+      "url": "https://sharjak.com",
+      "endDate": "2016-06-30"
+    },
+    {
+      "name": "Joojetighi (Hedgehog) - Unity3D Game",
+      "startDate": "2015-11-30",
+      "summary": "In this game player must tap the ball and jump off the hedgehog rolling around. If the ball hits them it would pop.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.joojetighi",
+      "endDate": "2015-11-30"
+    },
+    {
+      "name": "Ropaee (Controlling Ball) - Unity3D Game",
+      "startDate": "2015-10-31",
+      "summary": "Control Ball is a simple game with a ball and taping to keep it in the air. You can access the game core source code as a unity tutorial material at my Github account.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.ropaee",
+      "endDate": "2015-10-31"
+    },
+    {
+      "name": "Farar Az Zendan (Prison Break) - Unity3D Game",
+      "startDate": "2015-09-30",
+      "summary": "Player must help a prisoners to escape from Alcatraz prison wall using a Hook. Player must avoid police projection lights and collect keys.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.az1441",
+      "endDate": "2015-09-30"
+    },
+    {
+      "name": "Paper Plane - Unity3D Game",
+      "startDate": "2015-09-30",
+      "summary": "This is a flappy bird copy game with different and attractive 2d graphics. Player must try to pass the paper plane from within the columns and score.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.paperplane",
+      "endDate": "2015-09-30"
+    },
+    {
+      "name": "Tap Tap - Unity3D Game",
+      "startDate": "2015-09-30",
+      "summary": "Player must mimic the up coming obstacle by tapping the screen and score. The game get faster and player must concentrate on the upcoming shapes.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.taptap",
+      "endDate": "2015-09-30"
+    },
+    {
+      "name": "Bozche (Little Goat) - Unity3D Game",
+      "startDate": "2015-08-31",
+      "summary": "Player must arrive this pair of goats together to the ground and beware of obstacles on their way.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.bozche",
+      "endDate": "2015-08-31"
+    },
+    {
+      "name": "Baparabad (Jumping Land) - Unity3D Game",
+      "startDate": "2015-06-30",
+      "summary": "A simple but interesting game. Player get points based on the distance jumped from columns. We try to create a very beautiful and attractive 2D graphics based on Iranian traditions.",
+      "url": "http://get.mobazi.ir/com.kitegamestudio.beparabad",
+      "endDate": "2015-06-30"
+    },
+    {
+      "name": "Autocharge - Android Application",
+      "startDate": "2015-04-30",
+      "summary": "Autocharge is one of the oldest mobile charge system. This system automatically charge your MCI SIM card immediately after the payment finished.",
+      "url": "http://www.autocharge.ir",
+      "endDate": "2015-04-30"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
