@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jsonresume-theme-eshaham": "^1.0.9"
+    "jsonresume-theme-eshaham": "^1.0.9",
+    "jsonresume-theme-jdambron": "^1.0.9"
   }
 }
