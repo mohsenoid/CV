@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jsonresume-theme-bhdouglass": "^1.0.1",
     "jsonresume-theme-eshaham": "^1.0.9"
   }
 }
