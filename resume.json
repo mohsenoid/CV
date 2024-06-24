@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mohsen Mirhoseini",
-    "label": "Android Team/Tech Lead at Firework",
+    "label": "Senior Android Developer & Team/Tech Lead",
     "image": "assets/avatar.jpg",
     "email": "msn.mirhoseini@gmail.com",
     "phone": "+4915732197325",
@@ -48,15 +48,15 @@
   "work": [
     {
       "name": "Loop Now Technologies (Firework)",
-      "position": "Android Team/Tech Lead (Full-Time | Remote)",
+      "position": "Senior Android Developer & Team (Full-Time | Remote)",
       "startDate": "2022-04-30",
       "endDate": "2024-06-30",
       "highlights": [
-        "Challenging with SDK development limitations like not being allowed to depend on open source libraries and therefore designing and developing everything from scratch.",
-        "Designing and developing the SDK architecture with over 50 different modules",
-        "Implementing automations and processes that improved development speed",
-        "Mentoring team members, resulting: improved code quality, faster time to production",
-        "Collaborating with both product managers and customers"
+        "Developed and maintained the Firework Android SDK, reaching millions of users.",
+        "Designed and implemented the SDK architecture with over 50 modules.",
+        "Improved development speed through automation and process enhancements.",
+        "Mentored team members, improving code quality and production speed.",
+        "Collaborated with product managers and customers to refine features."
       ],
       "summary": "Developing and owning the Firework Android SDK that is used by millions of users, allowing every publisher and business to tell their stories with short videos, hosting Livestream events, and Ads inside their Android apps.",
       "url": "https://firework.com/",
@@ -68,11 +68,10 @@
       "startDate": "2020-03-31",
       "endDate": "2022-03-31",
       "highlights": [
-        "Taking over an out-sourced Android project and making it in-house by refactoring most of the legacy codes and defining and automating workflows.",
-        "Giving love to a code base done by multiple freelancers",
-        "Implementing Turn-by-Turn navigation using Here SDK",
-        "Developing an Android library to communicate with 3rd party apps",
-        "Defining technical and nontechnical flows including release automation and CI/CD"
+        "Transitioned an outsourced Android project in-house, enhancing legacy code and workflows.",
+        "Implemented Turn-by-Turn navigation using Here SDK.",
+        "Developed an Android library for third-party app communication.",
+        "Defined and automated CI/CD pipelines."
       ],
       "summary": "Helping GLS last mile drivers in Europe on listing parcels to deliver and navigating through waypoints to meet for a day tour.",
       "url": "https://bettermile.com",
@@ -84,11 +83,9 @@
       "startDate": "2017-02-28",
       "endDate": "2020-03-31",
       "highlights": [
-        "Starting the Chris companion android app development from scratch and successfully releasing it into production after more than 1-year designing and prototyping.",
-        "Defining a proper codebase and project structure including architecture and modules",
-        "Managing a secure solution for communication over BLE using Protobuf",
-        "Setting an appropriate CI/CD pipeline including version control and release systems",
-        "Being an active member of product tech leads and core management team"
+        "Led the development of the Chris companion app from concept to production.",
+        "Managed BLE communication with Protobuf for secure connections.",
+        "Established CI/CD pipelines and participated in core management."
       ],
       "summary": "Working on a complex AI-based Automotive Voice Assistant (AVA) platform and Chris the digital assistant for drivers based on the AVA platform project.",
       "url": "https://germanautolabs.com/",
@@ -100,10 +97,9 @@
       "startDate": "2013-02-28",
       "endDate": "2017-01-31",
       "highlights": [
-        "Developing a game social network application using RESTful APIs",
-        "Developing a newsreader application and a music streaming service application",
-        "Managing multiple Applications based on VAS back-end systems (by SMS/USSD)",
-        "Consulting mobile application solutions for B2B customers and content providers"
+        "Developed multiple apps including a social network, a music streaming service, and a news reader app.",
+        "Managed applications based on VAS back-end systems.",
+        "Consulted on mobile solutions for B2B clients."
       ],
       "summary": "Participating in multiple projects including a social network platform and a music streaming service. Promoting to Senior Android developer and team lead in a short time.",
       "url": "",
@@ -114,7 +110,9 @@
       "position": "Android Developer (Part-Time | Freelance)",
       "startDate": "2012-09-30",
       "endDate": "2013-02-28",
-      "highlights": [],
+      "highlights": [
+        "Developed various applications including a traffic map, food ordering, and health-related apps."
+      ],
       "summary": "Developing multiple big and small applications as a part-time job namely Tehran traffic map application, food ordering application, roadside assistance application using GPS and maps APIs, food calorie meter, and insulin reminder for diabetics patients.",
       "url": "",
       "location": "Tehran, Iran"
@@ -124,7 +122,9 @@
       "position": "Software Developer & Database Manager (Self-employed)",
       "startDate": "2006-08-31",
       "endDate": "2013-02-28",
-      "highlights": [],
+      "highlights": [
+        "Founded a company focused on software projects using C++, C#, SQL, and .NET technologies."
+      ],
       "summary": "Founded my own company and worked on Software projects using C++, C#, SQL, ASP, and .net technology.",
       "url": "",
       "location": "Tehran, Iran"
@@ -159,7 +159,7 @@
       "summary": "Speaking about Mobile game development and Unity3D workshop."
     },
     {
-      "title": "Winner of 2nd Shokoofa Festival Award 2014",
+      "title": "2nd Place, Shokoofa Festival Award 2014",
       "date": "2014-02-28",
       "awarder": "Tehran Municipality",
       "summary": "Winner of the 3rd position at the best urban services mobile application for Tehran Traffic Map app."
@@ -272,6 +272,11 @@
     },
     {
       "name": "Dependency Injection",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Compose UI",
       "level": "",
       "keywords": []
     },
