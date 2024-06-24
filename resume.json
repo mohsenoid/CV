@@ -50,7 +50,7 @@
       "name": "Loop Now Technologies (Firework)",
       "position": "Android Team/Tech Lead (Full-Time | Remote)",
       "startDate": "2022-04-30",
-      "endDate": "2024-05-30",
+      "endDate": "2024-06-30",
       "highlights": [
         "Challenging with SDK development limitations like not being allowed to depend on open source libraries and therefore designing and developing everything from scratch.",
         "Designing and developing the SDK architecture with over 50 different modules",
@@ -68,7 +68,7 @@
       "startDate": "2020-03-31",
       "endDate": "2022-03-31",
       "highlights": [
-        "Taking over an out-sourced Android project and make it in-house by refactoring most of legacy codes and defining and automating work flows.",
+        "Taking over an out-sourced Android project and making it in-house by refactoring most of the legacy codes and defining and automating workflows.",
         "Giving love to a code base done by multiple freelancers",
         "Implementing Turn-by-Turn navigation using Here SDK",
         "Developing an Android library to communicate with 3rd party apps",
@@ -138,7 +138,7 @@
       "studyType": "BSc",
       "startDate": "2005-12-31",
       "endDate": "2008-12-31",
-      "score": "Graduated as top student in OOP, C++ programming & SQL Database Management",
+      "score": "Graduated as the top student in OOP, C++ programming & SQL Database Management",
       "courses": []
     },
     {
@@ -147,7 +147,7 @@
       "studyType": "ASc",
       "startDate": "2003-12-31",
       "endDate": "2005-12-31",
-      "score": "Awarded as top student in Programming & Database Fundamentals Courses",
+      "score": "Awarded as the top student in Programming & Database Fundamentals Courses",
       "courses": []
     }
   ],
